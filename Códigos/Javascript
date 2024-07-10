@@ -1,0 +1,40 @@
+// game.js
+
+let pontos = 0;
+let subchefesDerrotados = 0;
+let chefesDerrotados = 0;
+
+// Função para resolver um quebra-cabeça
+function resolverQuebraCabeca(acertou) {
+    if (acertou) {
+        pontos += 1;
+        console.log(`Você ganhou 1 ponto! Pontuação atual: ${pontos}`);
+    } else {
+        pontos -= 1;
+        console.log(`Você errou! Pontuação atual: ${pontos}`);
+    }
+
+    if (pontos >= 25 && subchefesDerrotados === 0) {
+        console.log("Você pode enfrentar um subchefe!");
+    }
+
+    if (pontos >= 50 && chefesDerrotados === 0) {
+        console.log("Você pode enfrentar um chefe!");
+    }
+}
+
+// Função para enfrentar um subchefe ou chefe
+function enfrentarInimigo(tipo) {
+    if (tipo === "subchefe") {
+        subchefesDerrotados += 1;
+        console.log(`Você derrotou um subchefe! Subchefes derrotados: ${subchefesDerrotados}`);
+    } else if (tipo === "chefe") {
+        chefesDerrotados += 1;
+        console.log(`Você derrotou um chefe! Chefes derrotados: ${chefesDerrotados}`);
+    }
+}
+
+// Exemplo de uso:
+resolverQuebraCabeca(true); // Acertou o quebra-cabeça
+resolverQuebraCabeca(false); // Errou o quebra-cabeça
+enfrentarInimigo("subchefe"); // Derrotou um subchefe
