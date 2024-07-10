@@ -1,0 +1,33 @@
+(Prompt de criação do jogo)
+Crie um jogo em java script,o jogo será um RPG, onde o herói está aprendendo a programar e precisa saber usar o lógica de programação para resolver os quebra cabeças.
+
+(Prompt de criação do héroi do jogo) 
+Um herói neonipponico programador frontend usando raciocínio lógico como arma.
+
+(Prompt de criação do chefe)
+
+Nome do Chefe: Lógix, o Guardião da Programação
+
+Descrição: Lógix é um ser misterioso que habita as profundezas do Código Fonte. Sua aparência é uma combinação intrigante de linhas de código e padrões matemáticos. Ele usa sua lógica afiada como arma de ataque e JavaScript como sua armadura.
+
+Habilidades:
+
+Ataque Lógico: Lógix dispara feixes de raciocínio lógico em direção aos jogadores. Seu ataque é tão preciso que pode desativar qualquer escudo ou proteção.
+Defesa JavaScript: Quando os jogadores tentam atacá-lo, sua armadura de JavaScript se fortalece. Ele pode criar barreiras de código que refletem ataques ou até mesmo se regeneram.
+Loop Infinito: Lógix pode prender os jogadores em loops infinitos, confundindo-os e drenando sua energia.
+Fraquezas:
+
+Bug Crítico: Se os jogadores encontrarem um bug crítico em seu código, Lógix ficará momentaneamente vulnerável.
+Refatoração: Se os jogadores reorganizarem seu código-fonte, sua lógica ficará temporariamente confusa.
+Recompensas: Ao derrotar Lógix, os jogadores ganham o “Tomo da Lógica”, um pergaminho que concede conhecimento avançado em programação e a habilidade de resolver qualquer enigma lógico.
+
+Agora, prepare-se para enfrentar Lógix e decifrar seus enigmas!
+
+
+O herói a cada quebra cabeça resolvido, ganha ponto
+A cada erro, perde ponto
+Quando heroi completar 25 pontos, ele tem a possibilidade de enfrentar um subchefe
+Quando heroi completar 50 pontos ele tem a possibilidade de enfretar um chefe
+E se o héroi quiser ver o final verdadeiro, terá de enfrentar 3 vezes cada boss sem tomar dano.
+O jogo terá um chefão supremo que se chama 'logix'
+Esse chefe terá duas formas e um minion como ajudante. 
